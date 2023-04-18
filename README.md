@@ -2,9 +2,9 @@
 
 This is a group project made in collaboration by:
 
-Eleasha Bains
-Bashi
-Natalie Bruce
+- Eleasha Bains
+- Bashi
+- Natalie Bruce
 
 ## Project Overview:
 
@@ -17,13 +17,14 @@ This app is particularly good for users on the go and users that are looking for
 
 ## User Story 
 
-Name: Jenny Marbella
-Age: 28
-Occupation: Market Analyst 
-Family: lives alone with a cat (bubbles)
-Home location: London 
+- Name: Jenny Marbella
+- Age: 28
+- Occupation: Market Analyst 
+- Family: lives alone with a cat (bubbles)
+- Home location: London 
 
-Story: Jenny is a busy marketer and works hybrid. During her days at home she often exercises less and tends to snack, however, during going into the office, she is able to buy healthier food but still struggles to meal prep based on her current diet goals.
+### Story: 
+Jenny is a busy marketer and works hybrid. During her days at home she often exercises less and tends to snack, however, during going into the office, she is able to buy healthier food but still struggles to meal prep based on her current diet goals.
 
 ### Goals: 
 - Wants to find an efficient way maintain a healthy weight 
