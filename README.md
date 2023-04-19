@@ -32,7 +32,17 @@ Jenny is a busy marketer and works hybrid. During her days at home she often exe
 
 ### frustrations: 
 - Unable to find a simple app just to track calories just based on meal recommendations 
-- Finds it hard to plan meals and stay health during busy work schedules 
+- Finds it hard to plan meals and stay health during busy work schedules
+
+## Installation
+
+Click on the link below to view our application:
+
+
+## Usage
+
+![alt text](assets/images/screenshot.png)
+
 
 ## Tools used to build
 
@@ -52,3 +62,6 @@ Jenny is a busy marketer and works hybrid. During her days at home she often exe
 
 - Discussed the app function 
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
