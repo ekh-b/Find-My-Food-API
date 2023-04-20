@@ -30,18 +30,9 @@ Jenny is a busy marketer and works hybrid. During her days at home she often exe
 - Wants to find an efficient way maintain a healthy weight 
 - Buy groceries based on recommended meal ideas for BMI 
 
-### frustrations: 
+### Frustrations: 
 - Unable to find a simple app just to track calories just based on meal recommendations 
 - Finds it hard to plan meals and stay health during busy work schedules
-
-## Installation
-
-Click on the link below to view our application:
-
-
-## Usage
-
-![alt text](assets/images/screenshot.png)
 
 
 ## Tools used to build
@@ -61,6 +52,18 @@ Click on the link below to view our application:
 ## Steps taken
 
 - Discussed the app function 
+- Created a website prototype
+
+
+## Installation
+
+Click on the link below to view our application:
+
+
+## Usage
+
+![alt text](assets/images/screenshot.png)
+
 
 ## License
 
