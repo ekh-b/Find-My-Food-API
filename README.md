@@ -64,6 +64,12 @@ Click on the link below to view our application:
 ![alt text](assets/images/screenshot.png)
 
 
+## Sources
+
+- Camden food image: https://www.secretfoodtours.com/blog uk-street-food-cheap-convenient-and-oh-so-tasty/
+
+- Americas, Asia, Europe, Main visual images: https://unsplash.com/
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
