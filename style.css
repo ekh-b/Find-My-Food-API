@@ -1,0 +1,40 @@
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+#home{
+
+    background: url(images/Main\ visual.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    height: 100vh;
+}
+
+.custom-col{
+    margin-top: 25%;
+}
+
+i{
+    color: white;
+}
+
+#main-nav{
+    background-color: transparent;
+}
+.display-3{
+    color: white;
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+}
