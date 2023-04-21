@@ -49,3 +49,26 @@ i{
 
 
    
+
+/* Footer Properties*/
+
+/* Button colour change- if i take off the primary/ secondary tag this css works  */
+
+/*.btn-primary {
+
+    background:#D3D3D3 ;
+
+}*/
+
+.btn {
+
+    padding: 6px;
+
+
+
+}
+
+
+
+
+
