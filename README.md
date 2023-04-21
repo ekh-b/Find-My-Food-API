@@ -3,7 +3,7 @@
 This is a group project made in collaboration by:
 
 - Eleasha Bains
-- Bashi
+- Bashi Abduwali
 - Natalie Bruce
 
 ## Project Overview:
@@ -19,19 +19,20 @@ This app is particularly good for users on the go and users that are looking for
 
 - Name: Jenny Marbella
 - Age: 28
-- Occupation: Market Analyst 
-- Family: lives alone with a cat (bubbles)
-- Home location: London 
+- Occupation: Digital Marketer
+- Family: lives alone with a cactus (Needles)
+- Home location: London / remote 
 
-Jenny is a busy marketer and works hybrid. During her days at home she often exercises less and tends to snack, however, during going into the office, she is able to buy healthier food but still struggles to meal prep based on her current diet goals.
+Jenny is a digital marketer with a passion for travelling and food. As Jenny works remotely, she often travels to different destinations and creates content for her food blog. Jenny would like to have access to a website that could give a spark of inspiration by searching different locations, and finding tasty food hotspots.
+
 
 ### Goals: 
-- Wants to find an efficient way maintain a healthy weight 
-- Buy groceries based on recommended meal ideas for BMI 
+- Would like to search different locations and the food they offer
+- Able to see prices for budgeting
 
 ### Frustrations: 
-- Unable to find a simple app just to track calories just based on meal recommendations 
-- Finds it hard to plan meals and stay health during busy work schedules
+- Finds it hard to be inspired
+- Easy to find restaurants but not much on street food
 
 
 ## Tools used to build
