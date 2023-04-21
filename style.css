@@ -3,6 +3,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 section{
@@ -21,14 +22,30 @@ i{
     background-color: transparent;
 }
 
+
+.nav-link {
+
+    color: white;
+}
+
+.navbar-brandh {
+    color: white;
+}
+
 .display-3{
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family:fantasy;
 }
    
+.Tag-line {
 
+    color: white;
+    display: flex;
+}
     
-    
+
+
    
