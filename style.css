@@ -46,13 +46,11 @@ i{
     display: flex;
 }
     
-<<<<<<< HEAD
 .mid-text-h2 {
     display: grid;
     text-align: center;
     padding: 40px;
 }
-=======
 /* Destination section properties*/
 
 .list-unstyled{
@@ -64,7 +62,7 @@ i{
     font-weight:bold;
     font-size: 1.875em;
     position: absolute;
-    top: 120%;
+    top: 230%;
     bottom: 20%;
     left: 3%;
    
@@ -88,7 +86,6 @@ i{
 
 
 
->>>>>>> 38cde83bac9c7ad7a9b6d3be6dda115756c70f41
 
 .card-img-top {
     width: 100%;
@@ -96,7 +93,6 @@ i{
     object-fit: cover;
 }
 
-<<<<<<< HEAD
 @media (max-width: 767.98px) {
 .card .img-fit {
     aspect-ratio: 1.45 / 1;
@@ -127,5 +123,3 @@ i{
     background-color: crimson;
     color: white
 }
-=======
->>>>>>> 38cde83bac9c7ad7a9b6d3be6dda115756c70f41
