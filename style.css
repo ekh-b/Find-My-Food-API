@@ -70,13 +70,14 @@ i{
 /* Footer Properties*/
 
 /* Button colour change- if take off the primary/ secondary tag this css works  */
+/* Need to overide bootstrap styling- important! or inline? */
 
-.btn-primary {
+.footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
-    background:#D3E3D3 ;
 
 }
-
 
 
 
