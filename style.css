@@ -20,6 +20,12 @@ i{
 
 #main-nav{
     background-color: transparent;
+    position: absolute;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    
 }
 
 
@@ -28,31 +34,48 @@ i{
     color: white;
 }
 
+.nav-link-hs {
+    color: rgb(105, 178, 153);
+}
 .navbar-brandh {
     color: white;
 }
 
-.display-3{
+.display-2{
     color: white;
     display: flex;
-    flex-direction: column;
+    text-align: center;
     justify-content: center;
-    font-family:fantasy;
+    padding-top: 20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
 }
    
 .Tag-line {
 
-    color: white;
+    color: rgb(0, 0, 0);
+    font-family:Garamond, serif;
+    font-weight: bolder;
+    font-size: 36px;
     display: flex;
+    padding-top: 3%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 28px;
+   
+    
 }
     
-<<<<<<< HEAD
 .mid-text-h2 {
     display: grid;
     text-align: center;
     padding: 40px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+    letter-spacing: 1px;
 }
-=======
 /* Destination section properties*/
 
 .list-unstyled{
@@ -88,7 +111,6 @@ i{
 
 
 
->>>>>>> 38cde83bac9c7ad7a9b6d3be6dda115756c70f41
 
 .card-img-top {
     width: 100%;
@@ -96,7 +118,6 @@ i{
     object-fit: cover;
 }
 
-<<<<<<< HEAD
 @media (max-width: 767.98px) {
 .card .img-fit {
     aspect-ratio: 1.45 / 1;
@@ -127,5 +148,4 @@ i{
     background-color: crimson;
     color: white
 }
-=======
->>>>>>> 38cde83bac9c7ad7a9b6d3be6dda115756c70f41
+
