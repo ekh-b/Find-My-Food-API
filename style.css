@@ -46,6 +46,45 @@ i{
     display: flex;
 }
     
+.mid-text-h2 {
+    display: grid;
+    text-align: center;
+    padding: 40px;
+}
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
 
-   
+@media (max-width: 767.98px) {
+.card .img-fit {
+    aspect-ratio: 1.45 / 1;
+}
+}
+    
+ .button-element {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    display: flex;
+    padding-top: 45px;
+ }
+
+ .button {
+    padding: 10px 45px;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+ }
+ 
+ .button-1 {
+    border-radius: 50px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white
+ }
+
+.button-1:hover {
+    background-color: crimson;
+    color: white
+}
