@@ -12,6 +12,17 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"/>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"  defer></script>
+
+<!--Mapbox links-->
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+
+
+
+
+
   <title>Find My Food</title>
 </head>
 
@@ -148,6 +159,58 @@
 
 </ul>
 
+<!--ID's needed to interact with js components-->
+
+<div id="map"></div>
+  
+<div id="mapsearch" class="mapsearch"></div>
+
+<!--CSS for map and map search bar-->
+<style>
+
+  #map { width: 100%;height: 300px; }
+  </style>
+  </head>
+  <body>
+  
+  
+  <style>
+      .mapsearch {
+          position: absolute;
+          z-index: 1;
+          width: 50%;
+          left: 50%;
+          margin-left: -25%;
+          top: 10px;
+      }
+      .mapboxgl-ctrl-mapsearch {
+          min-width: 100%;
+      }
+      #map {
+          margin-top: 75px;
+      }
+  </style>
+  
+  <!--Js functions-->
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZWtoLWIiLCJhIjoiY2xndmVscmltMDZ6NjNlbXVlYjUxZnhmcSJ9.3KjWccWfs0nHeOma4-fXIg';
+      const map = new mapboxgl.Map({
+          container: 'map',
+  
+          style: 'mapbox://styles/mapbox/streets-v12',
+      
+          zoom: 13
+      });
+  
+      // search bar js
+      const mapsearch = new MapboxGeocoder({
+          accessToken: mapboxgl.accessToken,
+          mapboxgl: mapboxgl
+      });
+  
+      document.getElementById('mapsearch').appendChild(mapsearch.onAdd(map));
+  </script>
+  
 </div>
 
 
