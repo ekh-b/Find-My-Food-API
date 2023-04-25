@@ -3,7 +3,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-
+    
 }
 
 section{
@@ -42,6 +42,7 @@ i{
 }
 
 .display-2{
+
     color: white;
     display: flex;
     text-align: center;
@@ -49,7 +50,7 @@ i{
     padding-top: 20%;
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: Georgia, serif;
+    font-family: Georgia, serif; 
 }
    
 .Tag-line {
@@ -59,14 +60,14 @@ i{
     font-weight: bolder;
     font-size: 36px;
     display: flex;
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: center;
     justify-content: center;
-    padding-left: 28px;
+    padding-left: 28px;  
    
-    
 }
-    
+
+
 .mid-text-h2 {
     display: grid;
     text-align: center;
@@ -108,8 +109,6 @@ i{
 
 
 }
-
-
 
 
 .card-img-top {
