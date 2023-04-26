@@ -135,70 +135,73 @@
 
 
 
-  
-  
-
- 
-
 <!--ID's needed to interact with js components-->
-<div id="mapsearch" class="mapsearch"></div>
 
-<div id="map"></div>
+<section id =destinations>
+  <div id="mapsearch" class="mapsearch"></div>
+
+  <div id="map"></div>
+    
   
-
-
-<!--CSS for map and map search bar-->
-
-<style>
-  .mapsearch {
-      position: relative;
-      z-index: 1;
-      width: 50%;
-      left: 50%;
-      margin-left: -25%;
-      top: 10px;
-  }
-  .mapboxgl-ctrl-mapsearch {
-      min-width: 100%;
-  }
-  #map {
-      margin-top: 75px;
-  }
-</style>
-<style>
-
-  #map { width: 100%;height: 300px; }
+  
+  <!--CSS for map and map search bar-->
+  
+  <style>
+    .mapsearch {
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        left: 50%;
+        margin-left: -25%;
+        top: 10px;
+    }
+    .mapboxgl-ctrl-mapsearch {
+        min-width: 100%;
+    }
+    #map {
+        margin-top: 75px;
+    }
   </style>
-  </head>
-  <body>
+  <style>
   
-  
-  
-  
-  <!--Js functions-->
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZWtoLWIiLCJhIjoiY2xndmVscmltMDZ6NjNlbXVlYjUxZnhmcSJ9.3KjWccWfs0nHeOma4-fXIg';
-      const map = new mapboxgl.Map({
-          container: 'map',
-  
-          style: 'mapbox://styles/mapbox/streets-v12',
-      
-          zoom: 13
-      });
-  
-      // search bar js
-      const mapsearch = new MapboxGeocoder({
-          accessToken: mapboxgl.accessToken,
-          mapboxgl: mapboxgl
-      });
-  
-      document.getElementById('mapsearch').appendChild(mapsearch.onAdd(map));
-  </script>
-  
-</div>
-
-
+    #map { width: 100%;height: 500px; }
+    </style>
+    </head>
+    <body>
+    
+    
+    
+    
+    <!--Js functions-->
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoiZWtoLWIiLCJhIjoiY2xndmVscmltMDZ6NjNlbXVlYjUxZnhmcSJ9.3KjWccWfs0nHeOma4-fXIg';
+        const map = new mapboxgl.Map({
+            container: 'map',
+    
+            style: 'mapbox://styles/mapbox/streets-v12',
+        
+            zoom: 13
+        });
+    
+        // search bar js
+        const mapsearch = new MapboxGeocoder({
+            accessToken: mapboxgl.accessToken,
+            mapboxgl: mapboxgl
+        });
+    
+        document.getElementById('mapsearch').appendChild(mapsearch.onAdd(map));
+    </script>
+    
   </div>
+  
+  
+    </div>
+</section>
+
+
+
+
+
   <!--<img src="images/camden food.jpg" class="img-fluid w-100" alt="Image of food stalls around a canal, a hand holding a cardboard tray of fries in the center of this image">
 
   <ul class="list-unstyled">
@@ -217,7 +220,7 @@
    --> 
 
 
- </section>
+ 
  
  <!--DESTINATIONS-->
 
