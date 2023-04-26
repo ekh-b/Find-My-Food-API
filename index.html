@@ -158,14 +158,33 @@
 
 
 </ul>
+</div>
 
 <!--ID's needed to interact with js components-->
+<div id="mapsearch" class="mapsearch"></div>
 
 <div id="map"></div>
   
-<div id="mapsearch" class="mapsearch"></div>
+
 
 <!--CSS for map and map search bar-->
+
+<style>
+  .mapsearch {
+      position: relative;
+      z-index: 1;
+      width: 50%;
+      left: 50%;
+      margin-left: -25%;
+      top: 10px;
+  }
+  .mapboxgl-ctrl-mapsearch {
+      min-width: 100%;
+  }
+  #map {
+      margin-top: 75px;
+  }
+</style>
 <style>
 
   #map { width: 100%;height: 300px; }
@@ -174,22 +193,7 @@
   <body>
   
   
-  <style>
-      .mapsearch {
-          position: absolute;
-          z-index: 1;
-          width: 50%;
-          left: 50%;
-          margin-left: -25%;
-          top: 10px;
-      }
-      .mapboxgl-ctrl-mapsearch {
-          min-width: 100%;
-      }
-      #map {
-          margin-top: 75px;
-      }
-  </style>
+  
   
   <!--Js functions-->
   <script>
@@ -267,4 +271,3 @@
 <script src="function.js"></script>
 
 </html>
-
