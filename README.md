@@ -8,9 +8,9 @@ This is a group project made in collaboration by:
 
 ## Project Overview:
 
-The purpose of the find my food app is to create a useful tool to help users monitor calories needed based on their BMI.
-Our users are most likely health conscious, finding ways to keep track of their daily intake for a healthy balanced diet.
-The app will also suggest meal recommendations based off calorie intake needed, which makes it easier for the user to plan their day.
+The purpose of the find my food website is to create a useful tool to help users find food based on their location.
+Our users are most likely food enthusiasts or people travelling and on the go, trying to find a bite to eat.
+The website will contain a map to locate restaurants the area based on the users search and a inspired tab with location images.
 
 This app is particularly good for users on the go and users that are looking for a quick fix solution for meal prepping.
 
