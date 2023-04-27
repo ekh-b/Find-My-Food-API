@@ -10,9 +10,9 @@ This is a group project made in collaboration by:
 
 The purpose of the find my food website is to create a useful tool to help users find food based on their location.
 Our users are most likely food enthusiasts or people travelling and on the go, trying to find a bite to eat.
-The website will contain a map to locate restaurants the area based on the users search and a inspired tab with location images.
+The website will contain a map to locate restaurants the area based on the users search and a currency exchange to help with budgeting.
 
-This app is particularly good for users on the go and users that are looking for a quick fix solution for meal prepping.
+This app is particularly good for users on the go and users that are looking for a quick solution for some of their travel needs.
 
 
 ## User Story 
