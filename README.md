@@ -59,6 +59,9 @@ Jenny is a digital marketer with a passion for travelling and food. As Jenny wor
 
 Click on the link below to view our application:
 
+https://ekh-b.github.io/Find-My-Food-API/
+
+
 
 ## Usage
 
@@ -70,6 +73,22 @@ Click on the link below to view our application:
 - Camden food image: https://www.secretfoodtours.com/blog
 
 - Americas, Asia, Europe, Main visual images: https://unsplash.com/
+
+## Resources
+
+For map:
+https://www.mapbox.com/install/javascript/cdn-install/
+https://docs.mapbox.com/api/search/geocoding/
+https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-geocoder-outside-the-map/
+https://docs.mapbox.com/mapbox-gl-js/example/navigation/
+
+
+For page views:
+https://www.youtube.com/watch?v=rJDtoxhzvho
+https://www.w3schools.com/jsref/prop_node_innertext.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+
 
 ## License
 
