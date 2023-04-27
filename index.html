@@ -30,18 +30,18 @@
   
  <!--NAVBAR-->
 
-  <nav id="main-nav" class="navbar navbar-expand-md navbar-light fixed-top">
+  <nav id="nav-link-main" class="navbar navbar-expand-md navbar-light fixed-top">
     <div class="container">
       <div>
-        <a href="#home" class="navbar-brandh">Find My Food</a>
+        <a href="#home" class="nav-brand">Find My Food</a>
         <button class="navbar-toggler" type="button">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 
       <div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar nav">
+        <div class="collapse navbar-collapse" id="navHelp">
+          <ul class="navbar">
             <li class="nav-item">
               <a href="#home" class="nav-link-hs">Home</a>
 
@@ -123,15 +123,23 @@
 </div>
 
 
-<div class="button-element">
-
-  <a href="#" class="button button-1">Inspire Me!</a>
-</div>
-
-</div>
-</section>
 
  <!--INSPIRE-->
+<!--CURRENCY CONVERSION-->
+<div class="button-element">
+
+  <a href="#" class="button button-1">Convert My Currency</a>
+</div>
+ <label for="currentAmount">Current Amount</label>
+ <input type="number id="currentAmount value="50">
+ <div class="dropdowns">
+  <select  id="prev-select"></select>
+  <select  id="after-select"></select>
+ </div>
+ <button id="conButton">Convert Currency Here</button>
+ <p id="answer"></p>
+</div>
+</section>
 
 
 
@@ -244,6 +252,7 @@
 </div>
 
 
+
 <!--FOOTER-->
 
 <footer class="footer">
@@ -258,5 +267,8 @@
 <!--JavaScript File needs to stay here-->
 <script src="function.js"></script>
 <script src="visit.js"></script>
+<script src="api.js"></script>
+<script src="currency.js"></script>
+
 
 </html>
