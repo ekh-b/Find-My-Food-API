@@ -77,16 +77,16 @@ https://ekh-b.github.io/Find-My-Food-API/
 ## Resources
 
 For map:
-https://www.mapbox.com/install/javascript/cdn-install/
-https://docs.mapbox.com/api/search/geocoding/
-https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-geocoder-outside-the-map/
-https://docs.mapbox.com/mapbox-gl-js/example/navigation/
+- https://www.mapbox.com/install/javascript/cdn-install/
+- https://docs.mapbox.com/api/search/geocoding/
+- https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-geocoder-outside-the-map/
+- https://docs.mapbox.com/mapbox-gl-js/example/navigation/
 
 
 For page views:
-https://www.youtube.com/watch?v=rJDtoxhzvho
-https://www.w3schools.com/jsref/prop_node_innertext.asp
-https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+- https://www.youtube.com/watch?v=rJDtoxhzvho
+- https://www.w3schools.com/jsref/prop_node_innertext.asp
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
 
 
 

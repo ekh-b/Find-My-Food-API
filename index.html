@@ -15,8 +15,7 @@
 <!--Mapbox links-->
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
-<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+
 
 
 
@@ -148,9 +147,13 @@
 
 
 <!--ID's needed to interact with js components-->
+<!--These mapbox links need to be inside of the body-->
+
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
 
 <section id =destinations>
-  <div id="mapsearch" class="mapsearch"></div>
+  <div id="geocoder" class="geocoder"></div>
 
   <div id="map"></div>
     
@@ -160,7 +163,7 @@
   
  
   <style>
-    .mapsearch {
+    .geocoder{
         position: relative;
         z-index: 1;
         width: 50%;
@@ -168,7 +171,7 @@
         margin-left: -25%;
         top: 10px;
     }
-    .mapboxgl-ctrl-mapsearch {
+    .mapboxgl-ctrl-geocoder {
         min-width: 100%;
     }
     #map {
@@ -187,7 +190,7 @@
     <!--Js functions-->
     <script>
       mapboxgl.accessToken = 'pk.eyJ1IjoiZWtoLWIiLCJhIjoiY2xndmV0NW9lMDMxNDNlcGxwOHcwcmFzNSJ9._gdy1JFrchtkXfh4ZWgFgA';
-        const map = new mapboxgl.Map({
+        var map = new mapboxgl.Map({
             container: 'map',
     
             style: 'mapbox://styles/mapbox/streets-v12',
@@ -196,12 +199,18 @@
         });
     
         // search bar js
-        const mapsearch = new MapboxGeocoder({
+        var geocoder = new MapboxGeocoder({
             accessToken: mapboxgl.accessToken,
             mapboxgl: mapboxgl
         });
     
-        document.getElementById('mapsearch').appendChild(mapsearch.onAdd(map));
+        
+        //Zoom function
+
+        map.addControl(new mapboxgl.NavigationControl());
+        
+        //Search bar outside map
+        document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
     </script>
     
   </div>

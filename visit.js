@@ -30,6 +30,7 @@ var visitedCount=visits +1;
 localStorage.setItem("visits",visitedCount)
 }
 
+//Displays the page visits number in HTML
 count.innerText=localStorage.getItem("visits");
 
 
